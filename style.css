@@ -1,0 +1,44 @@
+.title {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+.caption {
+  font-family: 'Karla', sans-serif;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2em;
+
+  width: 40%;
+  height: auto;
+  justify-content: center;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); 
+}
+
+.button {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 7.5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+	background-color: #17583C;
+}
+
+.button:active {
+	position:relative;
+}
