@@ -1,11 +1,11 @@
-const num = 8;
+const num = 10;
 const randomNameGenerator = num => {
-   let txt = "\n";
+   var name = "\n";
    for(let i = 0; i < num; i++){
       const random = Math.floor(Math.random() * 27);
-      txt += String.fromCharCode(97 + random);
+      name += String.fromCharCode(97 + random);
    };
-   return txt;
+   return name;
 };
 
 function typeWriter() {
